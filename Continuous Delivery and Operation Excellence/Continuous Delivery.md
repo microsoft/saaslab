@@ -52,6 +52,6 @@ Increasing your operation and development productivity with DevOps
 * [DevOps with github learning Resources | WebCast](https://resources.github.com/webcasts/)
 * [DevOps with GitHub learning journey | Microsoft Learn](https://partner.microsoft.com/en-US/training/assets/collection/devops-with-github-learning-journey)
 * [DevOps @ Channel 9 - Video series](https://channel9.msdn.com/Search?term=DevOps&lang-en=true)
-* [DevOps: DevOps Resource Center](https://docs.microsoft.com/en-us/azure/devops/learn/)
+* [Microsoft DevOps Resource Center](https://docs.microsoft.com/en-us/azure/devops/learn/)
 
     
