@@ -18,15 +18,15 @@ Week 1 | Fast and Continuous Delivery in SaaS SDLC | Webinar
 ### DevOps culture | Webinar | Kickoff for this item
 
 Goal of the Webinar:
-    - DevOps Culture
-    - Benefit of DevOps culture in related to SaaS Journey:
-        ○ Ref the Continuous Delivery section in ISV SaaS Playbook(Grow Your ISV Business with SaaS: Microsoft Practices Development Playbook)
-    - How DevOps and automation can improve productivity, security and fast go to market, A/B testing
-    - Sharing resources
-    - Microsoft tools & Open source tools sharing
-    - Gather next interests
-    - Asking for input on interests on Office Hours, frequency 
-    - Asking for input of common challenges in speeding up SDLC
+* DevOps Culture
+* Benefit of DevOps culture in related to SaaS Journey:
+  Ref the Continuous Delivery section in ISV SaaS Playbook(Grow Your ISV Business with SaaS: Microsoft Practices Development Playbook)
+* How DevOps and automation can improve productivity, security and fast go to market, A/B testing
+* Sharing resources
+* Microsoft tools & Open source tools sharing
+* Gather next interests
+* Asking for input on interests on Office Hours, frequency 
+* Asking for input of common challenges in speeding up SDLC
 
 ## Top of minds & Reference resources
 
