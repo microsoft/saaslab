@@ -7,11 +7,19 @@
 * Office Hours
 * Lab
 
-## Plans
+## Content Delivery Schedule
 
 Plan | Topic | Delivery Format 
 ---- | ----- | ---------------
 Week 1 | Fast and Continuous Delivery in SaaS SDLC | Webinar
+Week 2 | Modernizing Compute | Webinar
+Week 3 | Application Storage Modernization | Webinar
+Week 4 | Innovation with Data & AI | Webinar
+Week 5 | Azure Marketplace | Webinar
+Week 6 | Identity in SaaS | Webinar
+Week 7 | The ISV Modernization Journey | Webinar
+Week 8 | Modern Architecture Patterns | Webinar
+
 
 ## Plans Details
 
