@@ -9,16 +9,18 @@
 
 ## Content Delivery Schedule
 
-Plan | Topic | Delivery Format 
----- | ----- | ---------------
-Week 1 | Fast and Continuous Delivery in SaaS SDLC | Webinar
-Week 2 | Modernizing Compute | Webinar
-Week 3 | Application Storage Modernization | Webinar
-Week 4 | Innovation with Data & AI | Webinar
-Week 5 | Azure Marketplace | Webinar
-Week 6 | Identity in SaaS | Webinar
-Week 7 | The ISV Modernization Journey | Webinar
-Week 8 | Modern Architecture Patterns | Webinar
+Plan | Topic | Delivery Format | Assigned | Notes
+---- | ----- | --------------- | -------- | -----
+Week 1 | The ISV Modernization Journey | Webinar | SJ, VC | Use Vito's video content
+Week 2 | Modern Architecture Patterns | Webinar | VN, SS, VC | 12 Factor Apps, Monolith to Microservices, Stragulation Pattern, Programs
+Week 3 | Identity in SaaS | Webinar | RN, MA | Leverage Phil Whipps
+Week 4 | Fast and Continuous Delivery in SaaS SDLC | Webinar | NT, VN | 
+Week 5 | Modernizing Compute | Webinar | SS, VN | 
+Week 6 | Application Storage Modernization | Webinar | VC, DSR | 
+Week 7 | Innovation with Data & Analytics | Webinar | DC, NT, Poonam |
+Week 8 | Innovation with AI & ML | Webinar | Poonam & Dr. Julia |
+Week 9 | Azure Marketplace | Webinar | MA, SJ | 
+Week 10 | Integration | Webinar | Gogo, Aswin, MA | PowerApps Connectors, API Management, Open API etc.
 
 
 ## Plans Details
