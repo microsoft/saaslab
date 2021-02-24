@@ -1,14 +1,21 @@
-# Project
+# SaaS Lab
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Sessions and contents:
 
-As the maintainer of this project, please make a few updates:
+| Week | Session | Topic | Date | Audience | Level | Quick Content Summary |
+|------|---------|-------|------|----------|-------| ----------|
+| Week 1 | 1 | The ISV Modernization Journey | 1 Mar - 5 Mar | Devs, CSAs | 300 - 400 | Hands-on walkthrough modernizing a .Net app | 
+| Week 1 | 2 | Modern Architecture Patterns and Modernizing Compute |  1 Mar - 5 Mar | | | |
+| Week 2 | 1 | Identity in SaaS | 8 Mar - 12 Mar | | | |
+| Week 2 | 2 | Fast and Continuous Delivery in SaaS SDLC | 8 Mar - 12 Mar | | | |
+| Week 3 | 1 | Application Storage Modernization |  15 Mar - 19 Mar |  Devs, CSAs | 300 - 400 | Discuss choices and what to look out for |
+| Week 3 | 2 | Innovation with Data & Analytics | 15 Mar - 19 Mar | | |  |
+| Week 4 | 1 | Innovation with AI & ML | 22 Mar - 26 Mar | | |  |
+| Week 4 | 2 | Azure Marketplace | 22 Mar - 26 Mar | | | |
+| Week 5 | 1 | Integration | 29 Mar - 4 Apr | | | |
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+
+<br/>
 
 ## Contributing
 
