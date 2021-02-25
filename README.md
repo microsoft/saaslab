@@ -29,7 +29,7 @@ This series of events will help you develop SaaS applications that can:
 | 1 | [The ISV Modernization Journey](#Session-1---The-ISV-Modernization-Journey) | 5 March 2021 | Devs, CSAs | 300 - 400 | Hands-on walkthrough modernizing a .NET app |
 | 2 | [Modern Architecture Patterns and Modernizing Compute](#Session-2---Modern-Architecture-Patterns-and-Modernizing-Compute) | Week 2 - Tuesday March 9th  | Devs, Architects, Decision Makers  | 300-400 | A session on Archiectural patterns, Cloud Adoption Patterns and compute options with QnA |
 | 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - TBC | | | |
-| 4 | [Fast and Continuous Delivery in SaaS SDLC](#Session-4---Fast-and-Continuous-Delivery-in-SaaS-SDLC) | Week 2 - TBC | | | |
+| 4 | [Infrastructure as Code](#Session-4---Infrastructure-as-Code) | Week 2 - Tuesday March 16th | Devs, Architects | 100 -300 | A session on ARM template, automation and DevOps from zoro to hero |
 | 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - TBC | Devs, CSAs | 300 - 400 | Discuss choices and what to look out for |
 | 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 3 - TBC | | |  |
 | 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - TBC | | |  |
@@ -105,21 +105,25 @@ In this session you will learn:
 
 - TBC
 
-### Session 4 - Fast and Continuous Delivery in SaaS SDLC
+### Session 4 - Infrastructure as Code
 
 | Info | Details |
 |------|---------|
-| Date & Time | TBC |
-| Audience | TBC |
-| Level | TBC |
+| Date & Time | Tuesday, 16th of March. SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
+| Audience | Devs,Architects,IT Professional,Senior Engineer |
+| Level | 100 - 300 |
 | Teams Link | TBC |
-| Presenter(s) | TBC |
+| Presenter(s) | Nhi Tran, Vorapat |
 
-Description: TBC
+Description: 
 
 In this session you will learn:
+How to working with ARM template, automation and DevOp with an interactive discussion style and demo.
 
-- TBC
+- ARM template from introduction to practical authoring with visual code
+- Reasource deployment and how to see the resource visulization
+- Automation with Azure DevOps 
+- Infrastructure code testing, security and validation
 
 ### Session 5 - Application Storage Modernization
 
