@@ -110,7 +110,7 @@ In this session you will learn:
 | Info | Details |
 |------|---------|
 | Date & Time | Tuesday, 16th of March. SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
-| Audience | Devs,Architects |
+| Audience | Devs,Architects,IT Professional,Senior Engineer |
 | Level | 100 - 300 |
 | Teams Link | TBC |
 | Presenter(s) | Nhi Tran, Vorapat |
