@@ -27,7 +27,7 @@ This series of events will help you develop SaaS applications that can:
 | Session | Topic | Date | Audience | Level | Quick Content Summary |
 |---------|-------|------|----------|-------|-----------------------|
 | 1 | [The ISV Modernization Journey](#Session-1---The-ISV-Modernization-Journey) | 5 March 2021 | Devs, CSAs | 300 - 400 | Hands-on walkthrough modernizing a .NET app |
-| 2 | [Modern Architecture Patterns and Modernizing Compute](#Session-2---Modern-Architecture-Patterns-and-Modernizing-Compute) | Week 2 - Tuesday March 5th  | Devs, Architects, Decision Makers  | 300-400 | A session on Archiectural patterns, Cloud Adoption Patterns and compute options with QnA |
+| 2 | [Modern Architecture Patterns and Modernizing Compute](#Session-2---Modern-Architecture-Patterns-and-Modernizing-Compute) | Week 2 - Tuesday March 9th  | Devs, Architects, Decision Makers  | 300-400 | A session on Archiectural patterns, Cloud Adoption Patterns and compute options with QnA |
 | 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - TBC | | | |
 | 4 | [Fast and Continuous Delivery in SaaS SDLC](#Session-4---Fast-and-Continuous-Delivery-in-SaaS-SDLC) | Week 2 - TBC | | | |
 | 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - TBC | Devs, CSAs | 300 - 400 | Discuss choices and what to look out for |
