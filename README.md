@@ -1,21 +1,184 @@
 # SaaS Lab
 
-Sessions and contents:
+## Objective
 
-| Week | Session | Topic | Date | Audience | Level | Quick Content Summary |
-|------|---------|-------|------|----------|-------| ----------|
-| Week 1 | 1 | The ISV Modernization Journey | 1 Mar - 5 Mar | Devs, CSAs | 300 - 400 | Hands-on walkthrough modernizing a .Net app | 
-| Week 1 | 2 | Modern Architecture Patterns and Modernizing Compute |  1 Mar - 5 Mar | | | |
-| Week 2 | 1 | Identity in SaaS | 8 Mar - 12 Mar | | | |
-| Week 2 | 2 | Fast and Continuous Delivery in SaaS SDLC | 8 Mar - 12 Mar | | | |
-| Week 3 | 1 | Application Storage Modernization |  15 Mar - 19 Mar |  Devs, CSAs | 300 - 400 | Discuss choices and what to look out for |
-| Week 3 | 2 | Innovation with Data & Analytics | 15 Mar - 19 Mar | | |  |
-| Week 4 | 1 | Innovation with AI & ML | 22 Mar - 26 Mar | | |  |
-| Week 4 | 2 | Azure Marketplace | 22 Mar - 26 Mar | | | |
-| Week 5 | 1 | Integration | 29 Mar - 4 Apr | | | |
+SaaS Lab is a series of events that will help you modernize your application
+to make use of multi-tenant SaaS architecture patterns and technologies in Azure.
 
+This series of events will help you develop SaaS applications that can:
 
-<br/>
+- Scale to serve hundreds, thousands or millions of customers.
+- Make use of modern PaaS and container technologies to reduce
+  operational cost.
+- Increase quality and reduce lead times by adopting DevOps and
+  Continuous Delivery.
+- Adopt multi-tenant architecture to increase tenant density and
+  reduce cost-to-serve.
+- Build a platform ecosystem by enabling partner integration.
+- Innovate and disrupt by building AI and Machine Learning into
+  your application.
+- Enable best-of-breed security and identity features in your
+  application with Azure AD and Azure AD B2C.
+- Reach new markets, enable trials, simpler transacting and new
+  commercial models by leveraging Azure Marketplace.
+
+## Sessions
+
+| Session | Topic | Date | Audience | Level | Quick Content Summary |
+|---------|-------|------|----------|-------|-----------------------|
+| 1 | [The ISV Modernization Journey](#Session-1---The-ISV-Modernization-Journey) | 5 March 2021 | Devs, CSAs | 300 - 400 | Hands-on walkthrough modernizing a .NET app |
+| 2 | [Modern Architecture Patterns and Modernizing Compute](#Session-2---Modern-Architecture-Patterns-and-Modernizing-Compute) | Week 1 - TBC | | | |
+| 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - TBC | | | |
+| 4 | [Fast and Continuous Delivery in SaaS SDLC](#Session-4---Fast-and-Continuous-Delivery-in-SaaS-SDLC) | Week 2 - TBC | | | |
+| 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - TBC | Devs, CSAs | 300 - 400 | Discuss choices and what to look out for |
+| 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 3 - TBC | | |  |
+| 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - TBC | | |  |
+| 8 | [Azure Marketplace](#Session-8---Azure-Marketplace) | Week 4 - TBC | | | |
+| 9 | [Integration](#Session-9---Integration) | Week 5 - TBC | | | |
+
+### Session 1 - The ISV Modernization Journey
+
+| Info | Details |
+|------|---------|
+| Date & Time | Friday, 5th of March. SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm |
+| Audience | Devs, CSAs |
+| Level | 300 - 400 |
+| Teams Link | TBC |
+| Presenter(s) | Vito Chin |
+
+Description: Hands-on walkthrough modernizing a .NET app.
+
+In this session you will learn:
+
+- TBC
+
+### Session 2 - Modern Architecture Patterns and Modernizing Compute
+
+| Info | Details |
+|------|---------|
+| Date & Time | TBC |
+| Audience | TBC |
+| Level | TBC |
+| Teams Link | TBC |
+| Presenter(s) | TBC |
+
+Description: TBC
+
+In this session you will learn:
+
+- TBC
+
+### Session 3 - Identity in SaaS
+
+| Info | Details |
+|------|---------|
+| Date & Time | TBC |
+| Audience | TBC |
+| Level | TBC |
+| Teams Link | TBC |
+| Presenter(s) | TBC |
+
+Description: TBC
+
+In this session you will learn:
+
+- TBC
+
+### Session 4 - Fast and Continuous Delivery in SaaS SDLC
+
+| Info | Details |
+|------|---------|
+| Date & Time | TBC |
+| Audience | TBC |
+| Level | TBC |
+| Teams Link | TBC |
+| Presenter(s) | TBC |
+
+Description: TBC
+
+In this session you will learn:
+
+- TBC
+
+### Session 5 - Application Storage Modernization
+
+| Info | Details |
+|------|---------|
+| Date & Time | TBC |
+| Audience | TBC |
+| Level | TBC |
+| Teams Link | TBC |
+| Presenter(s) | TBC |
+
+Description: TBC
+
+In this session you will learn:
+
+- TBC
+
+### Session 6 - Innovation with Data & Analytics
+
+| Info | Details |
+|------|---------|
+| Date & Time | TBC |
+| Audience | TBC |
+| Level | TBC |
+| Teams Link | TBC |
+| Presenter(s) | TBC |
+
+Description: TBC
+
+In this session you will learn:
+
+- TBC
+
+### Session 7 - Innovation with AI & ML
+
+| Info | Details |
+|------|---------|
+| Date & Time | TBC |
+| Audience | TBC |
+| Level | TBC |
+| Teams Link | TBC |
+| Presenter(s) | TBC |
+
+Description: TBC
+
+In this session you will learn:
+
+- TBC
+
+### Session 8 - Azure Marketplace
+
+| Info | Details |
+|------|---------|
+| Date & Time | TBC |
+| Audience | TBC |
+| Level | TBC |
+| Teams Link | TBC |
+| Presenter(s) | TBC |
+
+Description: TBC
+
+In this session you will learn:
+
+- TBC
+
+### Session 9 - Integration
+
+| Info | Details |
+|------|---------|
+| Date & Time | TBC |
+| Audience | TBC |
+| Level | TBC |
+| Teams Link | TBC |
+| Presenter(s) | TBC |
+
+Description: TBC
+
+In this session you will learn:
+
+- TBC
 
 ## Contributing
 
@@ -33,8 +196,8 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 ## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
+trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
