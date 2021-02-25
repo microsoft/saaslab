@@ -48,9 +48,22 @@ This series of events will help you develop SaaS applications that can:
 
 Description: Hands-on walkthrough modernizing a .NET app.
 
-In this session you will learn:
+In this session you will learn the steps to modernize a legacy on-premises application, including upgrading and migrating the database to Azure and updating the application to take advantage of serverless and cloud services. Azure services and related products includes:
 
-- TBC
+* App Services
+* Azure Active Directory
+* Azure Cognitive Services
+* Azure Database Migration Service
+* Azure Key Vault
+* Azure Redis
+* Azure Cognitive Search
+* Azure SQL Database
+* Azure Storage
+* Azure Virtual Machines
+* Flow
+* PowerApps
+* Visual Studio
+* Xamarin
 
 ### Session 2 - Modern Architecture Patterns and Modernizing Compute
 
