@@ -117,9 +117,9 @@ In this session you will learn:
 
 | Info | Details |
 |------|---------|
-| Date & Time | TBC |
-| Audience | TBC |
-| Level | TBC |
+| Date & Time | Friday, 19th of March. SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm |
+| Audience | Devs, CSAs |
+| Level | 300, 400 |
 | Teams Link | TBC |
 | Presenter(s) | TBC |
 
@@ -127,7 +127,9 @@ Description: TBC
 
 In this session you will learn:
 
-- TBC
+* The persistency options that are available on Azure
+* What to look out for in terms of user data boundaries
+* Architecture choices for multi-tenant application data
 
 ### Session 6 - Innovation with Data & Analytics
 
