@@ -33,7 +33,7 @@ This series of events will help you develop SaaS applications that can:
 | 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - TBC | Devs, CSAs | 300 - 400 | Discuss choices and what to look out for |
 | 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 4 - TBC | | |  |
 | 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - TBC | | |  |
-| 8 | [Azure Marketplace](#Session-8---Azure-Marketplace) | Week 5 - TBC | | | |
+| 8 | [Azure Marketplace](#Session-8---Azure-Marketplace) | Week 5 - Tuesday March 30th | Devs, Technical & Business Decision Makers, Marketing | 200-300 | Learn how to integrate solutions with the Microsoft Commercial Marketplace to expand organic reach and solution transactability |
 | 9 | [Integration](#Session-9---Integration) | Week 5 - TBC | | | |
 
 ### Session 1 - The ISV Modernization Journey
@@ -179,17 +179,29 @@ In this session you will learn:
 
 | Info | Details |
 |------|---------|
-| Date & Time | TBC |
-| Audience | TBC |
-| Level | TBC |
+| Date & Time | Tuesday, 30th of March. SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
+| Audience | Devs, Technical & Business Decision Makers, Marketing |
+| Level | 200-300 |
 | Teams Link | TBC |
-| Presenter(s) | TBC |
+| Presenter(s) | Miguel Arcilla |
 
-Description: TBC
+Description: 
 
-In this session you will learn:
+The Commercial Marketplace is Microsoft's online product catalog, where first-party and third-party offers are available to millions of monthly users, Microsoft sellers, and resellers from organizations worldwide. The Commercial Marketplace enables Microsoft ISV partners to sell tech solutions directly through and with Microsoft, expanding addressable markets and driving business growth.
 
-- TBC
+In this session you will learn how partners create, publish, and manage commercial marketplace offers using the Partner Center. You will learn about transactable and non-transactable solution types, and the tools and APIs available to integrate and build a transactable offer. 
+
+Related products and services will include:
+- Microsoft Commercial Marketplace
+- Azure Marketplace and Microsoft AppSource
+- Microsoft Partner Center
+- Azure Active Directory
+- Azure Virtual Machine Images
+- Azure Shared Image Gallery
+- Azure Storage
+- SaaS Fulfillment APIs
+- Marketplace Metering Service APIs
+- ARM Templates
 
 ### Session 9 - Integration
 
