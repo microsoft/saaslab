@@ -27,7 +27,7 @@ This series of events will help you develop SaaS applications that can:
 | Session | Topic | Date | Audience | Level | Quick Content Summary |
 |---------|-------|------|----------|-------|-----------------------|
 | 1 | [The ISV Modernization Journey](#Session-1---The-ISV-Modernization-Journey) | 5 March 2021 | Devs, CSAs | 300 - 400 | Hands-on walkthrough modernizing a .NET app |
-| 2 | [Modern Architecture Patterns and Modernizing Compute](#Session-2---Modern-Architecture-Patterns-and-Modernizing-Compute) | Week 1 - TBC | | | |
+| 2 | [Modern Architecture Patterns and Modernizing Compute](#Session-2---Modern-Architecture-Patterns-and-Modernizing-Compute) | Week 2 - Tuesday March 9th  | Devs, Architects, Decision Makers  | 300-400 | A session on Archiectural patterns, Cloud Adoption Patterns and compute options with QnA |
 | 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - TBC | | | |
 | 4 | [Fast and Continuous Delivery in SaaS SDLC](#Session-4---Fast-and-Continuous-Delivery-in-SaaS-SDLC) | Week 2 - TBC | | | |
 | 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - TBC | Devs, CSAs | 300 - 400 | Discuss choices and what to look out for |
@@ -69,17 +69,25 @@ In this session you will learn the steps to modernize a legacy on-premises appli
 
 | Info | Details |
 |------|---------|
-| Date & Time | TBC |
-| Audience | TBC |
-| Level | TBC |
+| Date & Time | Tuesday, 9th of March. SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
+| Audience | Devs,Architects,Decision Makers |
+| Level | 300-400 |
 | Teams Link | TBC |
-| Presenter(s) | TBC |
+| Presenters | Sajeetharan , Vorapat , Vito Chin |
 
-Description: TBC
+Description: 
 
 In this session you will learn:
+How to modernize everything on Azure platform so your organization can stay up and running now and in the future. End up with highly scalable, maintainable, and modernized applications and the knowledge you need to take on your own company’s next migration project.
 
-- TBC
+- Architecture styles
+- Architecture of Modern Cloud Application
+- Design Patterns
+- Cloud Adoption Framework
+- Azure's unique approach
+- App transformation in context
+- How to break down monolith to microservices
+- QnA
 
 ### Session 3 - Identity in SaaS
 
