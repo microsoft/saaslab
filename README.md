@@ -31,8 +31,8 @@ This series of events will help you develop SaaS applications that can:
 | 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - Thursday, March 11th | Decision Makers,Architects,Devs | 300-400 | Learn how to build your applications on a strong foundation of identity and security |
 | 4 | [Infrastructure as Code](#Session-4---Infrastructure-as-Code) | Week 3 - Tuesday, March 16th | Devs, Architects | 100-300 | A session on ARM template, automation and DevOps from zero to hero |
 | 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - Friday, March 19th | Devs, CSAs | 300-400 | Discuss choices and what to look out for |
-| 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 4 - Tuesday, March 23rd | Devs, Data Scientists, Data Engs | 100-200 |  How do you add value to your solutions through data and analytics? |
-| 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - Thursday, March 25th | Devs, Data Scientists, Data Engs, AI Engs | 200-400 | Building innovation into your applications with AI & Machine Learning |
+| 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 4 - Tuesday, March 23rd | Devs, Data Engs | 200-300 |  How do you add value to your solutions through data and analytics? |
+| 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - Thursday, March 25th | Devs, IT Professional, Senior Engs, Data Engs, AI Engs | 200-300 | Building innovation into your applications with AI & Machine Learning |
 | 8 | [Integration](#Session-8---Integration) | Week 5 - TBC | | | |
 | 9 | [Azure Marketplace](#Session-9---Azure-Marketplace) | Week 5 - Tuesday, March 30th | Devs, Technical & Business Decision Makers, Marketing | 200-300 | Learn how to integrate solutions with the Microsoft Commercial Marketplace to expand organic reach and solution transactability |
 
@@ -146,18 +146,17 @@ In this session you will learn:
 | Info | Details |
 |------|---------|
 | Date & Time | Tuesday, 23rd of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
-| Audience | Developers, Data Scientists, Data Engineers |
-| Level | 100-200 |
+| Audience | Developers, Data Engineers |
+| Level | 200-300 |
 | Presenter(s) | Daphne Choong |
 
 Description: How do you add value to your solutions through data and analytics?
 
 In this session you will learn:
 
-- What innovations can you do with the data you have?
-- Data-driven decisions: How to build a culture around this?
-- Value-adding business insights into your ISV solutions
-- Building a dashboard
+- Value-adding data insights into your ISV solutions
+- How to start a data warehouse using Azure SQL Data Warehouse
+- Building a dashboard using Power BI
 
 ### Session 7 - Innovation with AI & ML
 
@@ -165,7 +164,7 @@ In this session you will learn:
 |------|---------|
 | Date & Time | Thursday, 25th of March. IST: 8:30am-10:30am, SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm (TBC length of session) |
 | Audience | Developers, IT Professional, Senior Engineer, Data Engineers, AI Engineers |
-| Level | 200-400 (TBC) |
+| Level | 200-300 |
 | Presenter(s) | Dr Julia Gusakova, Poonam Brijesh Sampat |
 
 Description: TBC
