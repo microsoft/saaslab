@@ -92,8 +92,8 @@ How to modernize everything on Azure platform so your organization can stay up a
 | Info | Details |
 |------|---------|
 | Date & Time | Thursday, 11th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm (TBC length of session) |
-| Audience | TBC |
-| Level | TBC |
+| Audience | Decision Makers,Architects,Devs |
+| Level | 300-400 |
 | Presenter(s) | Ryan Nguyen |
 
 Description: TBC
