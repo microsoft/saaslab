@@ -167,7 +167,7 @@ In this session you will learn:
 | Info | Details |
 |------|---------|
 | Date & Time | Thursday, 25th of March. IST: 8:30am-10:30am, SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm (TBC length of session) |
-| Audience | Developers, Data Scientists, Data Engineers, AI Engineers |
+| Audience | Developers, IT Professional, Senior Engineer, Data Engineers, AI Engineers |
 | Level | 200-400 (TBC) |
 | Teams Link | TBC |
 | Presenter(s) | Dr Julia Gusakova, Poonam Brijesh Sampat |
@@ -176,7 +176,9 @@ Description: TBC
 
 In this session you will learn:
 
-- TBC
+- Overview of AI & ML
+- AI stack on Azure
+- Deep Dive on selected Cognitive Services
 
 ### Session 8 - Azure Marketplace
 
