@@ -28,11 +28,11 @@ This series of events will help you develop SaaS applications that can:
 |---------|-------|------|----------|-------|-----------------------|
 | 1 | [The ISV Modernization Journey](#Session-1---The-ISV-Modernization-Journey) | 5 March 2021 | Devs, CSAs | 300 - 400 | Hands-on walkthrough modernizing a .NET app |
 | 2 | [Modern Architecture Patterns and Modernizing Compute](#Session-2---Modern-Architecture-Patterns-and-Modernizing-Compute) | Week 2 - Tuesday March 9th  | Devs, Architects, Decision Makers  | 300-400 | A session on Archiectural patterns, Cloud Adoption Patterns and compute options with QnA |
-| 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - TBC | | | |
+| 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - Thursday March 11th | | | |
 | 4 | [Infrastructure as Code](#Session-4---Infrastructure-as-Code) | Week 3 - Tuesday March 16th | Devs, Architects | 100 -300 | A session on ARM template, automation and DevOps from zero to hero |
 | 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - TBC | Devs, CSAs | 300 - 400 | Discuss choices and what to look out for |
-| 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 4 - TBC | | |  |
-| 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - TBC | | |  |
+| 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 4 - Tuesday March 23rd | Devs, Data Scientists, Data Engs | 100 - 200 |  How do you add value to your solutions through data and analytics? |
+| 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - Thursday March 25th | Devs, Data Scientists, Data Engs, AI Engs | 200-400 (TBC) |  |
 | 8 | [Azure Marketplace](#Session-8---Azure-Marketplace) | Week 5 - Tuesday March 30th | Devs, Technical & Business Decision Makers, Marketing | 200-300 | Learn how to integrate solutions with the Microsoft Commercial Marketplace to expand organic reach and solution transactability |
 | 9 | [Integration](#Session-9---Integration) | Week 5 - TBC | | | |
 
@@ -69,7 +69,7 @@ In this session you will learn the steps to modernize a legacy on-premises appli
 
 | Info | Details |
 |------|---------|
-| Date & Time | Tuesday, 9th of March. SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
+| Date & Time | Tuesday, 9th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
 | Audience | Devs,Architects,Decision Makers |
 | Level | 300-400 |
 | Teams Link | TBC |
@@ -93,11 +93,11 @@ How to modernize everything on Azure platform so your organization can stay up a
 
 | Info | Details |
 |------|---------|
-| Date & Time | TBC |
+| Date & Time | Thursday, 11th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm (TBC length of session) |
 | Audience | TBC |
 | Level | TBC |
 | Teams Link | TBC |
-| Presenter(s) | TBC |
+| Presenter(s) | Ryan Nguyen |
 
 Description: TBC
 
@@ -109,7 +109,7 @@ In this session you will learn:
 
 | Info | Details |
 |------|---------|
-| Date & Time | Tuesday, 16th of March. SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
+| Date & Time | Tuesday, 16th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
 | Audience | Devs,Architects,IT Professional,Senior Engineer |
 | Level | 100 - 300 |
 | Teams Link | TBC |
@@ -129,7 +129,7 @@ How to working with ARM template, automation and DevOp with an interactive discu
 
 | Info | Details |
 |------|---------|
-| Date & Time | Friday, 19th of March. SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm |
+| Date & Time | Friday, 19th of March. IST: 8:30am-10:30am, SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm |
 | Audience | Devs, CSAs |
 | Level | 300, 400 |
 | Teams Link | TBC |
@@ -147,27 +147,30 @@ In this session you will learn:
 
 | Info | Details |
 |------|---------|
-| Date & Time | TBC |
-| Audience | TBC |
-| Level | TBC |
+| Date & Time | Tuesday, 23rd of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
+| Audience | Developers, Data Scientists, Data Engineers |
+| Level | 100-200 |
 | Teams Link | TBC |
-| Presenter(s) | TBC |
+| Presenter(s) | Daphne Choong |
 
-Description: TBC
+Description: How do you add value to your solutions through data and analytics?
 
 In this session you will learn:
 
-- TBC
+- What innovations can you do with the data you have?
+- Data-driven decisions: How to build a culture around this?
+- Value-adding business insights into your ISV solutions
+- Building a dashboard
 
 ### Session 7 - Innovation with AI & ML
 
 | Info | Details |
 |------|---------|
-| Date & Time | TBC |
-| Audience | TBC |
-| Level | TBC |
+| Date & Time | Thursday, 25th of March. IST: 8:30am-10:30am, SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm (TBC length of session) |
+| Audience | Developers, Data Scientists, Data Engineers, AI Engineers |
+| Level | 200-400 (TBC) |
 | Teams Link | TBC |
-| Presenter(s) | TBC |
+| Presenter(s) | Dr Julia Gusakova, Poonam Brijesh Sampat |
 
 Description: TBC
 
@@ -179,7 +182,7 @@ In this session you will learn:
 
 | Info | Details |
 |------|---------|
-| Date & Time | Tuesday, 30th of March. SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
+| Date & Time | Tuesday, 30th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
 | Audience | Devs, Technical & Business Decision Makers, Marketing |
 | Level | 200-300 |
 | Teams Link | TBC |
