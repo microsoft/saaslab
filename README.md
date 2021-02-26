@@ -28,7 +28,7 @@ This series of events will help you develop SaaS applications that can:
 |---------|-------|------|----------|-------|-----------------------|
 | 1 | [The ISV Modernization Journey](#Session-1---The-ISV-Modernization-Journey) | Week 1 - Friday, March 5th | Devs, CSAs | 300 - 400 | Hands-on walkthrough modernizing a .NET app |
 | 2 | [Modern Architecture Patterns and Modernizing Compute](#Session-2---Modern-Architecture-Patterns-and-Modernizing-Compute) | Week 2 - Tuesday, March 9th | Devs, Architects, Decision Makers  | 300-400 | A session on Archiectural patterns, Cloud Adoption Patterns and compute options with QnA |
-| 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - Thursday, March 11th | | | |
+| 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - Thursday, March 11th | Decision Makers,Architects,Devs | 200 -300 | A session on Architect your SaaS apps with Microsoft identity |
 | 4 | [Infrastructure as Code](#Session-4---Infrastructure-as-Code) | Week 3 - Tuesday, March 16th | Devs, Architects | 100 -300 | A session on ARM template, automation and DevOps from zero to hero |
 | 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - Friday, March 19th | Devs, CSAs | 300 - 400 | Discuss choices and what to look out for |
 | 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 4 - Tuesday, March 23rd | Devs, Data Scientists, Data Engs | 100 - 200 |  How do you add value to your solutions through data and analytics? |
@@ -93,14 +93,17 @@ How to modernize everything on Azure platform so your organization can stay up a
 |------|---------|
 | Date & Time | Thursday, 11th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm (TBC length of session) |
 | Audience | Decision Makers,Architects,Devs |
-| Level | 300-400 |
+| Level | 200 -300 |
 | Presenter(s) | Ryan Nguyen |
 
-Description: TBC
+Description: Architect your apps with Microsoft identity to accelerate adoption and protect your app
 
 In this session you will learn:
 
-- TBC
+- AuthenN vs AuthorN
+- Value Proposition of the Microsoft Identity Platform
+- The Developer Journey
+- How to architect your App for Identity-driven Security
 
 ### Session 4 - Infrastructure as Code
 
