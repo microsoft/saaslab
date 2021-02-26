@@ -93,14 +93,17 @@ How to modernize everything on Azure platform so your organization can stay up a
 |------|---------|
 | Date & Time | Thursday, 11th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm (TBC length of session) |
 | Audience | Decision Makers,Architects,Devs |
-| Level | 300-400 |
+| Level | 200 -300 |
 | Presenter(s) | Ryan Nguyen |
 
-Description: TBC
+Description: Architect your apps with Microsoft identity to accelerate adoption and protect your app
 
 In this session you will learn:
 
-- TBC
+- AuthenN vs AuthorN
+- Value Proposition of the Microsoft Identity Platform
+- The Developer Journey
+- How to architect your App for Identity-driven Security
 
 ### Session 4 - Infrastructure as Code
 
