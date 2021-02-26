@@ -43,7 +43,6 @@ This series of events will help you develop SaaS applications that can:
 | Date & Time | Friday, 5th of March. SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm |
 | Audience | Devs, CSAs |
 | Level | 300 - 400 |
-| Teams Link | TBC |
 | Presenter(s) | Vito Chin |
 
 Description: Hands-on walkthrough modernizing a .NET app.
@@ -72,7 +71,6 @@ In this session you will learn the steps to modernize a legacy on-premises appli
 | Date & Time | Tuesday, 9th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
 | Audience | Devs,Architects,Decision Makers |
 | Level | 300-400 |
-| Teams Link | TBC |
 | Presenters | Sajeetharan , Vorapat , Vito Chin |
 
 Description:
@@ -96,7 +94,6 @@ How to modernize everything on Azure platform so your organization can stay up a
 | Date & Time | Thursday, 11th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm (TBC length of session) |
 | Audience | TBC |
 | Level | TBC |
-| Teams Link | TBC |
 | Presenter(s) | Ryan Nguyen |
 
 Description: TBC
@@ -112,7 +109,6 @@ In this session you will learn:
 | Date & Time | Tuesday, 16th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
 | Audience | Devs,Architects,IT Professional,Senior Engineer |
 | Level | 100 - 300 |
-| Teams Link | TBC |
 | Presenter(s) | Nhi Tran, Vorapat |
 
 Description:
@@ -132,7 +128,6 @@ How to working with ARM template, automation and DevOp with an interactive discu
 | Date & Time | Friday, 19th of March. IST: 8:30am-10:30am, SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm |
 | Audience | Devs, CSAs |
 | Level | 300, 400 |
-| Teams Link | TBC |
 | Presenter(s) | TBC |
 
 Description: TBC
@@ -150,7 +145,6 @@ In this session you will learn:
 | Date & Time | Tuesday, 23rd of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
 | Audience | Developers, Data Scientists, Data Engineers |
 | Level | 100-200 |
-| Teams Link | TBC |
 | Presenter(s) | Daphne Choong |
 
 Description: How do you add value to your solutions through data and analytics?
@@ -169,7 +163,6 @@ In this session you will learn:
 | Date & Time | Thursday, 25th of March. IST: 8:30am-10:30am, SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm (TBC length of session) |
 | Audience | Developers, Data Scientists, Data Engineers, AI Engineers |
 | Level | 200-400 (TBC) |
-| Teams Link | TBC |
 | Presenter(s) | Dr Julia Gusakova, Poonam Brijesh Sampat |
 
 Description: TBC
@@ -185,8 +178,7 @@ In this session you will learn:
 | Date & Time | TBC |
 | Audience | TBC |
 | Level | TBC |
-| Teams Link | TBC |
-| Presenter(s) | TBC |
+| Presenter(s) | Miguel Arcilla, Gogo Muljawan, Aswin Chanthraksuwan |
 
 Description: TBC
 
@@ -201,7 +193,6 @@ In this session you will learn:
 | Date & Time | Tuesday, 30th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
 | Audience | Devs, Technical & Business Decision Makers, Marketing |
 | Level | 200-300 |
-| Teams Link | TBC |
 | Presenter(s) | Miguel Arcilla |
 
 Description:
