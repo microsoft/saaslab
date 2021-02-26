@@ -26,13 +26,13 @@ This series of events will help you develop SaaS applications that can:
 
 | Session | Topic | Date | Audience | Level | Quick Content Summary |
 |---------|-------|------|----------|-------|-----------------------|
-| 1 | [The ISV Modernization Journey](#Session-1---The-ISV-Modernization-Journey) | Week 1 - Friday, March 5th | Devs, CSAs | 300 - 400 | Hands-on walkthrough modernizing a .NET app |
+| 1 | [The ISV Modernization Journey](#Session-1---The-ISV-Modernization-Journey) | Week 1 - Friday, March 5th | Devs, CSAs | 300-400 | Hands-on walkthrough modernizing a .NET app |
 | 2 | [Modern Architecture Patterns and Modernizing Compute](#Session-2---Modern-Architecture-Patterns-and-Modernizing-Compute) | Week 2 - Tuesday, March 9th | Devs, Architects, Decision Makers  | 300-400 | A session on Archiectural patterns, Cloud Adoption Patterns and compute options with QnA |
-| 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - Thursday, March 11th | Decision Makers,Architects,Devs | 200 -300 | A session on Architect your SaaS apps with Microsoft identity |
-| 4 | [Infrastructure as Code](#Session-4---Infrastructure-as-Code) | Week 3 - Tuesday, March 16th | Devs, Architects | 100 -300 | A session on ARM template, automation and DevOps from zero to hero |
-| 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - Friday, March 19th | Devs, CSAs | 300 - 400 | Discuss choices and what to look out for |
-| 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 4 - Tuesday, March 23rd | Devs, Data Scientists, Data Engs | 100 - 200 |  How do you add value to your solutions through data and analytics? |
-| 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - Thursday, March 25th | Devs, Data Scientists, Data Engs, AI Engs | 200-400 |  |
+| 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - Thursday, March 11th | Decision Makers,Architects,Devs | 300-400 | Learn how to build your applications on a strong foundation of identity and security |
+| 4 | [Infrastructure as Code](#Session-4---Infrastructure-as-Code) | Week 3 - Tuesday, March 16th | Devs, Architects | 100-300 | A session on ARM template, automation and DevOps from zero to hero |
+| 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - Friday, March 19th | Devs, CSAs | 300-400 | Discuss choices and what to look out for |
+| 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 4 - Tuesday, March 23rd | Devs, Data Scientists, Data Engs | 100-200 |  How do you add value to your solutions through data and analytics? |
+| 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - Thursday, March 25th | Devs, Data Scientists, Data Engs, AI Engs | 200-400 | Building innovation into your applications with AI & Machine Learning |
 | 8 | [Integration](#Session-8---Integration) | Week 5 - TBC | | | |
 | 9 | [Azure Marketplace](#Session-9---Azure-Marketplace) | Week 5 - Tuesday, March 30th | Devs, Technical & Business Decision Makers, Marketing | 200-300 | Learn how to integrate solutions with the Microsoft Commercial Marketplace to expand organic reach and solution transactability |
 
