@@ -33,8 +33,8 @@ This series of events will help you develop SaaS applications that can:
 | 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - Friday, March 19th | Devs, CSAs | 300-400 | Discuss choices and what to look out for |
 | 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 4 - Tuesday, March 23rd | Devs, Data Engs | 200-300 |  How do you add value to your solutions through data and analytics? |
 | 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - Thursday, March 25th | Devs, IT Professional, Senior Engs, Data Engs, AI Engs | 200-300 | Building innovation into your applications with AI & Machine Learning |
-| 8 | [Integration](#Session-8---Integration) | Week 5 - TBC | | | |
-| 9 | [Azure Marketplace](#Session-9---Azure-Marketplace) | Week 5 - Tuesday, March 30th | Devs, Technical & Business Decision Makers, Marketing | 200-300 | Learn how to integrate solutions with the Microsoft Commercial Marketplace to expand organic reach and solution transactability |
+| 8 | [Integration](#Session-8---Integration) | Week 5 - Tuesday, March 30th | Architects, Technical & Business Decision Makers | 200-300 | Learn how an API First approach to SaaS improves extensibility, and how to maximize integration with Microsoft's productivity platforms |
+| 9 | [Azure Marketplace](#Session-9---Azure-Marketplace) | Week 5 - Wednesday, March 31st | Devs, Technical & Business Decision Makers, Marketing | 200-300 | Learn how to integrate solutions with the Microsoft Commercial Marketplace to expand organic reach and solution transactability |
 
 ### Session 1 - The ISV Modernization Journey
 
@@ -179,22 +179,33 @@ In this session you will learn:
 
 | Info | Details |
 |------|---------|
-| Date & Time | TBC |
-| Audience | TBC |
-| Level | TBC |
+| Date & Time | Tuesday, 30th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
+| Audience | Architects, Technical & Business Decision Makers |
+| Level | 200-300 |
 | Presenter(s) | Miguel Arcilla, Gogo Muljawan, Aswin Chanthraksuwan |
 
-Description: TBC
+Description: 
 
-In this session you will learn:
+Adopting API First design principles enables SaaS applications to scale past their user interface, unlocking opportunities for users to integrate an app's functionality into their unique workflow.
 
-- TBC
+In this session you will learn how to design an app with extensibility in mind, and what solutions you can adopt to scalably manage and monetize your APIs. You will also learn how Microsoft Power Platform and Microsoft Teams can empower citizen developers to leverage your APIs with their productivity suite.
+
+Related products and services will include:
+- Azure API Management
+- Microsoft Power Platform 
+  - Power Apps
+  - Power Automate
+  - Power BI
+  - Power Virtual Agents
+- Microsoft Dataverse
+- Microsoft Teams
+- Microsoft Bot Framework
 
 ### Session 9 - Azure Marketplace
 
 | Info | Details |
 |------|---------|
-| Date & Time | Tuesday, 30th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
+| Date & Time | Wednesday, 31st of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
 | Audience | Devs, Technical & Business Decision Makers, Marketing |
 | Level | 200-300 |
 | Presenter(s) | Miguel Arcilla |
