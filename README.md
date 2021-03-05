@@ -30,7 +30,7 @@ This series of events will help you develop SaaS applications that can:
 | 2 | [Modern Architecture Patterns and Modernizing Compute](#Session-2---Modern-Architecture-Patterns-and-Modernizing-Compute) | Week 2 - Tuesday, March 9th | Devs, Architects, Decision Makers  | 300-400 | A session on Archiectural patterns, Cloud Adoption Patterns and compute options with QnA |
 | 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - Thursday, March 11th | Decision Makers,Architects,Devs | 300-400 | Learn how to build your applications on a strong foundation of identity and security |
 | 4 | [Infrastructure as Code](#Session-4---Infrastructure-as-Code) | Week 3 - Tuesday, March 16th | Devs, Architects | 100-300 | A session on ARM template, automation and DevOps from zero to hero |
-| 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - Friday, March 19th | Devs, CSAs | 300-400 | Discuss choices and what to look out for |
+| 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - Friday, March 19th | Devs, CSAs | 300-400 | Modernize your application with a cost-effective, secure and scalable multi-tenant application storage architecture. |
 | 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 4 - Tuesday, March 23rd | Devs, Data Engs | 200-300 |  How do you add value to your solutions through data and analytics? |
 | 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - Thursday, March 25th | Devs, IT Professional, Senior Engs, Data Engs, AI Engs | 200-300 | Building innovation into your applications with AI & Machine Learning |
 | 8 | [Integration](#Session-8---Integration) | Week 5 - Tuesday, March 30th | Architects, Technical & Business Decision Makers | 200-300 | Learn how an API First approach to SaaS improves extensibility, and how to maximize integration with Microsoft's productivity platforms |
@@ -120,7 +120,7 @@ In this session you will learn:
 How to working with ARM template, automation and DevOp with an interactive discussion style and demo.
 
 - ARM template from introduction to practical authoring with visual code
-- Reasource deployment and how to see the resource visulization
+- Resource deployment and how to see the resource visulization
 - Automation with Azure DevOps
 - Infrastructure code testing, security and validation
 
@@ -129,17 +129,40 @@ How to working with ARM template, automation and DevOp with an interactive discu
 | Info | Details |
 |------|---------|
 | Date & Time | Friday, 19th of March. IST: 8:30am-10:30am, SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm |
-| Audience | Devs, CSAs |
+| Audience | Developers,Architects,IT Professional,SRE |
 | Level | 300, 400 |
-| Presenter(s) | TBC |
+| Presenter(s) | Daniel Scott-Raynsford |
 
-Description: TBC
+Description:
+
+Data storage is a key part of any application. This could be relational databases,
+document data or simply just file & blob data. Modernizing and optimizing how your
+application stores and manages data is a key part of any strategy in building SaaS
+in Azure.
+
+This session will provide you with a technology road-map that you can
+use to modernize your application with a cost-effective, secure and scalable
+multi-tenant application storage architecture.
+
+We'll take you through the architectural decisions and trade-offs Tailwind Traders
+make to modernize the storage on their single tenanted VM based monolithic application
+into a modern multi-tenanted application leveraging cloud specific patterns, ensuring
+they achieve positive technical and commercial outcomes.
 
 In this session you will learn:
 
-* The persistency options that are available on Azure
-* What to look out for in terms of user data boundaries
-* Architecture choices for multi-tenant application data
+- Some common storage services in Azure: Relational DB, NoSQL, blob
+- High availability in multi-tenant storage
+- The stages of modernizing different kinds of storage
+- Common architectural patterns for multi-tenant application data
+- Keeping storage secure in a multi-tenant environment
+- Building a robust tenant migration strategy
+- Special considerations: Front-end impact, noisy-neighbor, security & isolation, backup and resiliency
+- Commercial considerations of multi-tenancy
+- Factors to consider when multi-tenanting an application
+- Some multi-tenancy storage pitfalls to avoid
+- Monitoring in a multi-tenant environment
+- Advanced techniques such as row based security, token brokers, BYOK encryption, valet key
 
 ### Session 6 - Innovation with Data & Analytics
 
@@ -184,7 +207,7 @@ In this session you will learn:
 | Level | 200-300 |
 | Presenter(s) | Miguel Arcilla, Gogo Muljawan, Aswin Chanthraksuwan |
 
-Description: 
+Description:
 
 Adopting API First design principles enables SaaS applications to scale past their user interface, unlocking opportunities for users to integrate an app's functionality into their unique workflow.
 
@@ -192,7 +215,7 @@ In this session you will learn how to design an app with extensibility in mind, 
 
 Related products and services will include:
 - Azure API Management
-- Microsoft Power Platform 
+- Microsoft Power Platform
   - Power Apps
   - Power Automate
   - Power BI
