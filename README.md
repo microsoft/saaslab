@@ -31,8 +31,8 @@ This series of events will help you develop SaaS applications that can:
 | 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - Thursday, March 11th | Decision Makers,Architects,Devs | 300-400 | Learn how to build your applications on a strong foundation of identity and security |
 | 4 | [Infrastructure as Code](#Session-4---Infrastructure-as-Code) | Week 3 - Tuesday, March 16th | Devs, Architects | 100-300 | A session on ARM template, automation and DevOps from zero to hero |
 | 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - Friday, March 19th | Devs, CSAs | 300-400 | Modernize your application with a cost-effective, secure and scalable multi-tenant application storage architecture. |
-| 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data-_-Analytics) | Week 4 - Tuesday, March 23rd | Devs, Data Engs | 200-300 |  How do you add value to your solutions through data and analytics? |
-| 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI-_-ML) | Week 4 - Thursday, March 25th | Devs, IT Professional, Senior Engs, Data Engs, AI Engs | 200-300 | Building innovation into your applications with AI & Machine Learning |
+| 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data---Analytics) | Week 4 - Tuesday, March 23rd | Devs, Data Engs | 200-300 | How do you add value to your solutions through data and analytics? |
+| 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI---ML) | Week 4 - Thursday, March 25th | Devs, IT Professional, Senior Engs, Data Engs, AI Engs | 200-300 | Building innovation into your applications with AI & Machine Learning |
 | 8 | [Integration](#Session-8---Integration) | Week 5 - Tuesday, March 30th | Architects, Technical & Business Decision Makers | 200-300 | Learn how an API First approach to SaaS improves extensibility, and how to maximize integration with Microsoft's productivity platforms |
 | 9 | [Azure Marketplace](#Session-9---Azure-Marketplace) | Week 5 - Wednesday, March 31st | Devs, Technical & Business Decision Makers, Marketing | 200-300 | Learn how to integrate solutions with the Microsoft Commercial Marketplace to expand organic reach and solution transactability |
 
@@ -42,27 +42,27 @@ This series of events will help you develop SaaS applications that can:
 |------|---------|
 | Date & Time | Friday, 5th of March. SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm |
 | Audience | Devs, CSAs |
-| Level | 300 - 400 |
+| Level | 300-400 |
 | Presenter(s) | Vito Chin |
 
-Description: Hands-on walkthrough modernizing a .NET app.
+Description: Hands-on walk-through modernizing a .NET app.
 
 In this session you will learn the steps to modernize a legacy on-premises application, including upgrading and migrating the database to Azure and updating the application to take advantage of serverless and cloud services. Azure services and related products includes:
 
-* App Services
-* Azure Active Directory
-* Azure Cognitive Services
-* Azure Database Migration Service
-* Azure Key Vault
-* Azure Redis
-* Azure Cognitive Search
-* Azure SQL Database
-* Azure Storage
-* Azure Virtual Machines
-* Flow
-* PowerApps
-* Visual Studio
-* Xamarin
+- App Services
+- Azure Active Directory
+- Azure Cognitive Services
+- Azure Database Migration Service
+- Azure Key Vault
+- Azure Redis
+- Azure Cognitive Search
+- Azure SQL Database
+- Azure Storage
+- Azure Virtual Machines
+- Flow
+- PowerApps
+- Visual Studio
+- Xamarin
 
 ### Session 2 - Modern Architecture Patterns and Modernizing Compute
 
@@ -71,7 +71,7 @@ In this session you will learn the steps to modernize a legacy on-premises appli
 | Date & Time | Tuesday, 9th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
 | Audience | Devs,Architects,Decision Makers |
 | Level | 300-400 |
-| Presenters | Sajeetharan , Vorapat , Vito Chin |
+| Presenters | Sajeetharan Sinnathurai, Vorapat Nicklamai ,Vito Chin |
 
 Description:
 
@@ -111,8 +111,8 @@ In this session you will learn:
 |------|---------|
 | Date & Time | Tuesday, 16th of March. IST: 8:30am-10:00am, SGT: 11:00am-12:30pm, NZT: 4:00pm-5:30pm |
 | Audience | Devs,Architects,IT Professional,Senior Engineer |
-| Level | 100 - 300 |
-| Presenter(s) | Nhi Tran, Vorapat |
+| Level | 100-300 |
+| Presenter(s) | Nhi Tran, Vorapat Nicklamai |
 
 Description:
 
@@ -129,8 +129,8 @@ How to working with ARM template, automation and DevOp with an interactive discu
 | Info | Details |
 |------|---------|
 | Date & Time | Friday, 19th of March. IST: 8:30am-10:30am, SGT: 11:00am-1:00pm, NZT: 4:00pm-6:00pm |
-| Audience | Developers,Architects,IT Professional,SRE |
-| Level | 300, 400 |
+| Audience | Architects,Senior Developers,IT Professionals,SRE |
+| Level | 300-400 |
 | Presenter(s) | Daniel Scott-Raynsford |
 
 Description:
@@ -151,18 +151,20 @@ they achieve positive technical and commercial outcomes.
 
 In this session you will learn:
 
+- Fundamentals of modern cloud storage
 - Some common storage services in Azure: Relational DB, NoSQL, blob
 - High availability in multi-tenant storage
 - The stages of modernizing different kinds of storage
 - Common architectural patterns for multi-tenant application data
 - Keeping storage secure in a multi-tenant environment
 - Building a robust tenant migration strategy
-- Special considerations: Front-end impact, noisy-neighbor, security & isolation, backup and resiliency
+- Special considerations: Front-end scalability, noisy-neighbor, security & isolation, backup and resiliency
 - Commercial considerations of multi-tenancy
 - Factors to consider when multi-tenanting an application
 - Some multi-tenancy storage pitfalls to avoid
 - Monitoring in a multi-tenant environment
-- Advanced techniques such as row based security, token brokers, BYOK encryption, valet key
+- Advanced techniques such as row based security, token brokers, bring-your-own-key
+  encryption, valet key
 
 ### Session 6 - Innovation with Data & Analytics
 
@@ -190,7 +192,7 @@ In this session you will learn:
 | Level | 200-300 |
 | Presenter(s) | Dr Julia Gusakova, Poonam Brijesh Sampat |
 
-Description: TBC
+Description: How do you add value to your solutions through data and analytics?
 
 In this session you will learn:
 
@@ -214,6 +216,7 @@ Adopting API First design principles enables SaaS applications to scale past the
 In this session you will learn how to design an app with extensibility in mind, and what solutions you can adopt to scalably manage and monetize your APIs. You will also learn how Microsoft Power Platform and Microsoft Teams can empower citizen developers to leverage your APIs with their productivity suite.
 
 Related products and services will include:
+
 - Azure API Management
 - Microsoft Power Platform
   - Power Apps
@@ -240,6 +243,7 @@ The Commercial Marketplace is Microsoft's online product catalog, where first-pa
 In this session you will learn how partners create, publish, and manage commercial marketplace offers using the Partner Center. You will learn about transactable and non-transactable solution types, and the tools and APIs available to integrate and build a transactable offer.
 
 Related products and services will include:
+
 - Microsoft Commercial Marketplace
 - Azure Marketplace and Microsoft AppSource
 - Microsoft Partner Center
