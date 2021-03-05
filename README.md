@@ -26,15 +26,15 @@ This series of events will help you develop SaaS applications that can:
 
 | Session | Topic | Date | Audience | Level | Quick Content Summary |
 |---------|-------|------|----------|-------|-----------------------|
-| 1 | [The ISV Modernization Journey](#Session-1---The-ISV-Modernization-Journey) | Week 1 - Friday, March 5th | Devs, CSAs | 300-400 | Hands-on walkthrough modernizing a .NET app |
-| 2 | [Modern Architecture Patterns and Modernizing Compute](#Session-2---Modern-Architecture-Patterns-and-Modernizing-Compute) | Week 2 - Tuesday, March 9th | Devs, Architects, Decision Makers  | 300-400 | A session on Archiectural patterns, Cloud Adoption Patterns and compute options with QnA |
-| 3 | [Identity in SaaS](#Session-3---Identity-in-SaaS) | Week 2 - Thursday, March 11th | Decision Makers,Architects,Devs | 300-400 | Learn how to build your applications on a strong foundation of identity and security |
-| 4 | [Infrastructure as Code](#Session-4---Infrastructure-as-Code) | Week 3 - Tuesday, March 16th | Devs, Architects | 100-300 | A session on ARM template, automation and DevOps from zero to hero |
-| 5 | [Application Storage Modernization](#Session-5---Application-Storage-Modernization) | Week 3 - Friday, March 19th | Devs, CSAs | 300-400 | Modernize your application with a cost-effective, secure and scalable multi-tenant application storage architecture. |
-| 6 | [Innovation with Data & Analytics](#Session-6---Innovation-with-Data---Analytics) | Week 4 - Tuesday, March 23rd | Devs, Data Engs | 200-300 | How do you add value to your solutions through data and analytics? |
-| 7 | [Innovation with AI & ML](#Session---7-Innovation-with-AI---ML) | Week 4 - Thursday, March 25th | Devs, IT Professional, Senior Engs, Data Engs, AI Engs | 200-300 | Building innovation into your applications with AI & Machine Learning |
-| 8 | [Integration](#Session-8---Integration) | Week 5 - Tuesday, March 30th | Architects, Technical & Business Decision Makers | 200-300 | Learn how an API First approach to SaaS improves extensibility, and how to maximize integration with Microsoft's productivity platforms |
-| 9 | [Azure Marketplace](#Session-9---Azure-Marketplace) | Week 5 - Wednesday, March 31st | Devs, Technical & Business Decision Makers, Marketing | 200-300 | Learn how to integrate solutions with the Microsoft Commercial Marketplace to expand organic reach and solution transactability |
+| 1 | [The ISV Modernization Journey](#session-1---the-isv-modernization-journey) | Week 1 - Friday, March 5th | Devs, CSAs | 300-400 | Hands-on walkthrough modernizing a .NET app |
+| 2 | [Modern Architecture Patterns and Modernizing Compute](#session-2---modern-architecture-patterns-and-modernizing-compute) | Week 2 - Tuesday, March 9th | Devs, Architects, Decision Makers  | 300-400 | A session on Archiectural patterns, Cloud Adoption Patterns and compute options with QnA |
+| 3 | [Identity in SaaS](#session-3---identity-in-saas) | Week 2 - Thursday, March 11th | Decision Makers,Architects,Devs | 300-400 | Learn how to build your applications on a strong foundation of identity and security |
+| 4 | [Infrastructure as Code](#session-4---infrastructure-as-code) | Week 3 - Tuesday, March 16th | Devs, Architects | 100-300 | A session on ARM template, automation and DevOps from zero to hero |
+| 5 | [Application Storage Modernization](#session-5---application-storage-modernization) | Week 3 - Friday, March 19th | Devs, CSAs | 300-400 | Modernize your application with a cost-effective, secure and scalable multi-tenant application storage architecture. |
+| 6 | [Innovation with Data & Analytics](#session-6---innovation-with-data--analytics) | Week 4 - Tuesday, March 23rd | Devs, Data Engs | 200-300 | How do you add value to your solutions through data and analytics? |
+| 7 | [Innovation with AI & ML](#session-7---innovation-with-ai--ml) | Week 4 - Thursday, March 25th | Devs, IT Professional, Senior Engs, Data Engs, AI Engs | 200-300 | Building innovation into your applications with AI & Machine Learning |
+| 8 | [Integration](#session-8---integration) | Week 5 - Tuesday, March 30th | Architects, Technical & Business Decision Makers | 200-300 | Learn how an API First approach to SaaS improves extensibility, and how to maximize integration with Microsoft's productivity platforms |
+| 9 | [Azure Marketplace](#session-9---azure-marketplace) | Week 5 - Wednesday, March 31st | Devs, Technical & Business Decision Makers, Marketing | 200-300 | Learn how to integrate solutions with the Microsoft Commercial Marketplace to expand organic reach and solution transactability |
 
 ### Session 1 - The ISV Modernization Journey
 
