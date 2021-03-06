@@ -72,6 +72,7 @@ In this session you will learn the steps to modernize a legacy on-premises appli
 | Audience | Devs,Architects,Decision Makers |
 | Level | 300-400 |
 | Presenters | Sajeetharan Sinnathurai, Vorapat Nicklamai ,Vito Chin |
+| Feedback | [https://aka.ms/saaslabfeedback2](https://aka.ms/saaslabfeedback2) |
 
 Description:
 
@@ -95,6 +96,7 @@ How to modernize everything on Azure platform so your organization can stay up a
 | Audience | Decision Makers,Architects,Devs |
 | Level | 200 -300 |
 | Presenter(s) | Ryan Nguyen |
+| Feedback | [https://aka.ms/saaslabfeedback3](https://aka.ms/saaslabfeedback3) |
 
 Description: Architect your apps with Microsoft identity to accelerate adoption and protect your app
 
@@ -113,6 +115,7 @@ In this session you will learn:
 | Audience | Devs,Architects,IT Professional,Senior Engineer |
 | Level | 100-300 |
 | Presenter(s) | Nhi Tran, Vorapat Nicklamai |
+| Feedback | [https://aka.ms/saaslabfeedback4](https://aka.ms/saaslabfeedback4) |
 
 Description:
 
@@ -132,6 +135,7 @@ How to working with ARM template, automation and DevOp with an interactive discu
 | Audience | Architects,Senior Developers,IT Professionals,SRE |
 | Level | 300-400 |
 | Presenter(s) | Daniel Scott-Raynsford |
+| Feedback | [https://aka.ms/saaslabfeedback5](https://aka.ms/saaslabfeedback5) |
 
 Description:
 
@@ -174,6 +178,7 @@ In this session you will learn:
 | Audience | Developers, Data Engineers |
 | Level | 200-300 |
 | Presenter(s) | Daphne Choong |
+| Feedback | [https://aka.ms/saaslabfeedback6](https://aka.ms/saaslabfeedback6) |
 
 Description: How do you add value to your solutions through data and analytics?
 
@@ -191,6 +196,7 @@ In this session you will learn:
 | Audience | Developers, IT Professional, Senior Engineer, Data Engineers, AI Engineers |
 | Level | 200-300 |
 | Presenter(s) | Dr Julia Gusakova, Poonam Brijesh Sampat |
+| Feedback | [https://aka.ms/saaslabfeedback7](https://aka.ms/saaslabfeedback7) |
 
 Description: How do you add value to your solutions through data and analytics?
 
@@ -208,6 +214,7 @@ In this session you will learn:
 | Audience | Architects, Technical & Business Decision Makers |
 | Level | 200-300 |
 | Presenter(s) | Miguel Arcilla, Gogo Muljawan, Aswin Chanthraksuwan |
+| Feedback | [https://aka.ms/saaslabfeedback8](https://aka.ms/saaslabfeedback8) |
 
 Description:
 
@@ -235,6 +242,7 @@ Related products and services will include:
 | Audience | Devs, Technical & Business Decision Makers, Marketing |
 | Level | 200-300 |
 | Presenter(s) | Miguel Arcilla |
+| Feedback | [https://aka.ms/saaslabfeedback9](https://aka.ms/saaslabfeedback9) |
 
 Description:
 
