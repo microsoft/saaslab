@@ -1,0 +1,49 @@
+trigger:
+  branches:
+    include:
+    - '*'
+  paths:
+    include:
+    - src/infrastructure/*
+
+stages:
+  - stage: Test
+    displayName: Test (ARM-TTK)
+    jobs:
+      - job: Test_ARM_TTK_Pass
+        displayName: Test Infrastructure (Pass)
+        pool:
+          vmImage: windows-2019
+        steps:
+          - task: RunARMTTKTests@1
+            displayName: Run ARM-TTK Tests
+            inputs:
+              templatelocation: '$(System.DefaultWorkingDirectory)\src\infrastructure\pass\ttk-pass\*.json'
+              resultLocation: '$(System.DefaultWorkingDirectory)\src\infrastructure\pass\ttk-pass\results'
+
+          - task: PublishTestResults@2
+            displayName: Publish ARM-TTK Test Results
+            inputs:
+              testResultsFormat: 'NUnit'
+              testResultsFiles: '$(System.DefaultWorkingDirectory)\src\infrastructure\pass\ttk-pass\results\*-armttk.xml'
+              testRunTitle: 'Infrastructure (Pass)'
+            condition: always()
+
+      - job: Test_ARM_TTK_Fail
+        displayName: Test Infrastructure (Fail)
+        pool:
+          vmImage: windows-2019
+        steps:
+          - task: RunARMTTKTests@1
+            displayName: Run ARM-TTK Tests
+            inputs:
+              templatelocation: '$(System.DefaultWorkingDirectory)\src\infrastructure\fail\ttk-fail\*.json'
+              resultLocation: '$(System.DefaultWorkingDirectory)\src\infrastructure\fail\ttk-fail\results'
+
+          - task: PublishTestResults@2
+            displayName: Publish ARM-TTK Test Results
+            inputs:
+              testResultsFormat: 'NUnit'
+              testResultsFiles: '$(System.DefaultWorkingDirectory)\src\infrastructure\fail\ttk-fail\results\*-armttk.xml'
+              testRunTitle: 'Infrastructure (Fail)'
+            condition: always()
