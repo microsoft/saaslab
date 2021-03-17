@@ -1,0 +1,200 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "target": {
+            "type": "string",
+            "defaultValue": "",
+            "metadata": {
+                "description": "The name of the website to scan, starting with HTTP/HTTPS"
+            }
+        },
+        "containerImage": {
+            "type": "string",
+            "defaultValue": "owasp/zap2docker-weekly",
+            "metadata": {
+                "description": "The name of the OWASP ZAP container image to use"
+            }
+        },
+        "spiderTime": {
+            "type": "int",
+            "defaultValue": 1,
+            "minValue": 1,
+            "maxValue": 15,
+            "metadata": {
+                "description": "How long to spend spidering the site, in minutes"
+            }
+        },
+        "containerGroupName": {
+            "type": "string",
+            "defaultValue": "owaspzap-aci",
+            "metadata": {
+                "description": "The name of the Azure Container Instance"
+            }
+        },
+        "storageAccountName": {
+            "type": "string",
+            "defaultValue": "owaspzap",
+            "metadata": {
+                "description": "The name of the Storage Account to output the OWASP ZAP reports to"
+            }
+        },
+        "blobContainerName": {
+            "type": "string",
+            "defaultValue": "reports",
+            "metadata": {
+                "description": "The name of the blob container to output the OWASP ZAP reports to"
+            }
+        },
+        "htmlReportName": {
+            "type": "string",
+            "defaultValue": "testresults.html",
+            "metadata": {
+                "description": "The file name of the HTML report to generate"
+            }
+        },
+        "xmlReportName": {
+            "type": "string",
+            "defaultValue": "testresults.xml",
+            "metadata": {
+                "description": "The file name of the XML report to generate"
+            }
+        },
+        "containerCpuCores": {
+            "type": "int",
+            "defaultValue": 1,
+            "minValue": 1,
+            "maxValue": 4,
+            "metadata": {
+                "description": "The number of CPU codes to allocate to the OWASP ZAP container"
+            }
+        },
+        "containerMemoryInGB": {
+            "type": "string",
+            "defaultValue": "1.5",
+            "metadata": {
+                "description": "The amount of memory to allocate to the OWASP ZAP container"
+            }
+        }
+    },
+    "variables": {
+        "containerName": "owaspzap",
+        "cmdZapStart": "zap.sh -daemon -host 0.0.0.0 -port 8080 -config api.key=abcd -config api.addrs.addr.name=.* -config api.addrs.addr.regex=true",
+        "cmdDirMakeOutput": "mkdir output",
+        "cmdDirSymlinkWrk": "ln -s output wrk",
+        "cmdZapScan": "[concat('/zap/zap-baseline.py -t ', parameters('target'), ' -d -m ', parameters('spiderTime'), ' -x ', parameters('xmlReportName'), ' -r ',parameters('htmlReportName'))]",
+        "cmdWgetPutXmlReport": "[concat('wget --method=PUT --header=\"x-ms-blob-type: BlockBlob\" --body-file=output/', parameters('xmlReportName'), ' \"https://', parameters('storageAccountName'),'.blob.core.windows.net/', parameters('blobContainerName'), '/', parameters('xmlReportName'), '?')]",
+        "cmdWgetPutHtmlReport": "[concat('wget --method=PUT --header=\"x-ms-blob-type: BlockBlob\" --body-file=output/', parameters('htmlReportName'), ' \"https://', parameters('storageAccountName'),'.blob.core.windows.net/', parameters('blobContainerName'), '/', parameters('htmlReportName'), '?')]",
+        "accountSasProperties": {
+            "signedServices": "b",
+            "signedPermission": "rw",
+            "signedProtocol": "https",
+            "signedStart": "2019-01-01T11:11:11Z",
+            "signedExpiry": "2029-01-01T11:11:11Z",
+            "signedResourceTypes": "o",
+            "keyToSign": "key1"
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "name": "[parameters('storageAccountName')]",
+            "apiVersion": "2018-02-01",
+            "location": "[resourceGroup().location]",
+            "sku": {
+                "name": "Standard_LRS"
+            },
+            "kind": "StorageV2",
+            "properties": {},
+            "resources": [
+                {
+                    "type": "blobServices/containers",
+                    "apiVersion": "2018-03-01-preview",
+                    "name": "[concat('default/', parameters('blobContainerName'))]",
+                    "dependsOn": [
+                        "[parameters('storageAccountName')]"
+                    ],
+                    "properties": {
+                        "publicAccess": "None"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "[parameters('containerGroupName')]",
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-02-01-preview",
+            "location": "[resourceGroup().location]",
+            "dependsOn": [
+                "[concat('Microsoft.Storage/storageAccounts/', parameters('storageAccountName'))]"
+            ],
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[variables('containerName')]",
+                        "properties": {
+                            "image": "[parameters('containerImage')]",
+                            "command": [
+                                "/bin/bash",
+                                "-c",
+                                "[concat('($ZAPCOMMAND) & $MKDIROUTPUT && $SYMLINKWRK && sleep 30 && $SCAN ; sleep 10 ; ', variables('cmdWgetPutXmlReport'), listAccountSas(parameters('storageAccountName'), '2018-02-01', variables('accountSasProperties')).accountSasToken, '\" ; ', variables('cmdWgetPutHtmlReport'), listAccountSas(parameters('storageAccountName'), '2018-02-01', variables('accountSasProperties')).accountSasToken, '\"')]"
+                            ],
+                            "environmentVariables": [
+                                {
+                                    "name": "ZAPCOMMAND",
+                                    "value": "[variables('cmdZapStart')]"
+                                },
+                                {
+                                    "name": "MKDIROUTPUT",
+                                    "value": "[variables('cmdDirMakeOutput')]"
+                                },
+                                {
+                                    "name": "SYMLINKWRK",
+                                    "value": "[variables('cmdDirSymlinkWrk')]"
+                                },
+                                {
+                                    "name": "SCAN",
+                                    "value": "[variables('cmdZapScan')]"
+                                },
+                                {
+                                    "name": "PUTREPORT",
+                                    "value": "[variables('cmdWgetPutXmlReport')]"
+                                }
+                            ],
+                            "resources": {
+                                "requests": {
+                                    "cpu": "[parameters('containerCpuCores')]",
+                                    "memoryInGb": "[parameters('containerMemoryInGb')]"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Never",
+                "osType": "Linux"
+            }
+        }
+    ],
+    "outputs": {
+        "reportStorageAccount": {
+            "type": "string",
+            "value": "[parameters('storageAccountName')]"
+        },
+        "reportBlobContainer": {
+            "type": "string",
+            "value": "[parameters('blobContainerName')]"
+        },
+        "htmlReportName": {
+            "type": "string",
+            "value": "[parameters('htmlReportName')]"
+        },
+        "xmlReportName": {
+            "type": "string",
+            "value": "[parameters('xmlReportName')]"
+        },
+        "reportSasToken": {
+            "type": "string",
+            "value": "[listAccountSas(parameters('storageAccountName'), '2018-02-01', variables('accountSasProperties')).accountSasToken]"
+        }
+    }
+}

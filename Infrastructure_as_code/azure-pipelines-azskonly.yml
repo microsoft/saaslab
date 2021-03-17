@@ -1,0 +1,33 @@
+trigger:
+  branches:
+    include:
+    - '*'
+  paths:
+    include:
+    - src/infrastructure/*
+
+stages:
+  - stage: Test
+    displayName: Test (AzSK ARM Template Checker)
+    jobs:
+      - job: Test_ARM_SVT_Pass
+        displayName: Test Infrastructure (Pass)
+        pool:
+          vmImage: windows-2019
+        steps:
+
+        - task: AzSKARMTemplateChecker@4
+          inputs:
+            ARMTemplateFilePath: '$(System.DefaultWorkingDirectory)\src\infrastructure\pass\svt-pass\'
+            Recurse: false
+
+      - job: Test_ARM_SVT_Fail
+        displayName: Test Infrastructure (Fail)
+        pool:
+          vmImage: windows-2019
+        steps:
+
+        - task: AzSKARMTemplateChecker@4
+          inputs:
+            ARMTemplateFilePath: '$(System.DefaultWorkingDirectory)\src\infrastructure\fail\svt-fail\'
+            Recurse: false
