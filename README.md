@@ -184,9 +184,12 @@ Description: How do you add value to your solutions through data and analytics?
 
 In this session you will learn:
 
-- Value-adding data insights into your ISV solutions
-- How to start a data warehouse using Azure SQL Data Warehouse
-- Building a dashboard using Power BI
+- Data-Driven digital strategy
+- How to start Data & Analytics in the workplace
+- Modern Data Warehouse Architecture
+- Data DevOps
+- Azure Synapse Analytics
+- Azure Synapse Analytics & Power BI demo
 
 ### Session 7 - Innovation with AI & ML
 
