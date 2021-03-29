@@ -1,2 +1,4 @@
+# Application Storage Modernization
 
-<img src='./app_storage_options.png'></img>
+- [Slides](SaaS Lab Session 5 - Application Storage Modernization.pdf)
+- [Samples](StorageModernization\StorageModernization.sln)
