@@ -1,0 +1,51 @@
+trigger:
+  branches:
+    include:
+    - '*'
+  paths:
+    include:
+    - src/infrastructure/*
+
+stages:
+  - stage: Test
+    jobs:
+      - job: Test_Infrstructure
+        displayName: Test Infrastructure
+        pool:
+          vmImage: windows-2019
+        steps:
+          - task: RunARMTTKTests@1
+            displayName: Run ARM-TTK Tests
+            inputs:
+              templatelocation: '$(System.DefaultWorkingDirectory)\src\infrastructure\all\azuredeploy.json'
+              resultLocation: '$(System.DefaultWorkingDirectory)\src\infrastructure\all\results'
+
+          - task: PublishTestResults@2
+            displayName: Publish ARM-TTK Test Results
+            inputs:
+              testResultsFormat: 'NUnit'
+              testResultsFiles: '$(System.DefaultWorkingDirectory)\src\infrastructure\all\results\*-armttk.xml'
+              testRunTitle: 'Infrastructure'
+            condition: always()
+
+          - task: AzSKARMTemplateChecker@4
+            displayName: Run ARM Template Checker
+            inputs:
+              ARMTemplateFilePath: '$(System.DefaultWorkingDirectory)\src\infrastructure\all\azuredeploy.json'
+              Recurse: false
+              SkipControlsFromFile: '$(System.DefaultWorkingDirectory)\src\infrastructure\all\skipControls.csv'
+
+  - stage: Publish
+    jobs:
+      - job: Publish_Infrastructure
+        displayName: Publish Infrastructure
+        pool:
+          vmImage: windows-2019
+        steps:
+          - task: PublishBuildArtifacts@1
+            displayName: Publish ARM Template
+            inputs:
+              pathToPublish: '$(System.DefaultWorkingDirectory)\src\infrastructure\'
+              artifactName: 'Infrastructure'
+              publishLocation: 'Container'
+

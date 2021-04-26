@@ -1,0 +1,118 @@
+trigger:
+  branches:
+    include:
+    - master
+  paths:
+    include:
+    - src/infrastructure/all/*
+
+stages:
+  - stage: Test
+    displayName: Test Infrastructure
+    jobs:
+      - job: Test_Infrstructure
+        displayName: Test Infrastructure
+        pool:
+          vmImage: windows-2019
+        steps:
+          - task: RunARMTTKTests@1
+            displayName: Run ARM-TTK Tests
+            inputs:
+              templatelocation: '$(System.DefaultWorkingDirectory)\src\infrastructure\all\azuredeploy.json'
+              resultLocation: '$(System.DefaultWorkingDirectory)\src\infrastructure\all\results'
+
+          - task: PublishTestResults@2
+            displayName: Publish ARM-TTK Test Results
+            inputs:
+              testResultsFormat: 'NUnit'
+              testResultsFiles: '$(System.DefaultWorkingDirectory)\src\infrastructure\all\results\*-armttk.xml'
+              testRunTitle: 'Infrastructure'
+            condition: always()
+
+          - task: AzSKARMTemplateChecker@4
+            displayName: Run ARM Template Checker
+            inputs:
+              ARMTemplateFilePath: '$(System.DefaultWorkingDirectory)\src\infrastructure\all\azuredeploy.json'
+              Recurse: false
+              SkipControlsFromFile: '$(System.DefaultWorkingDirectory)\src\infrastructure\all\skipControls.csv'
+
+  - stage: WhatIf_Test
+    displayName: What-If Infrastructure (Test)
+    variables:
+      location: 'EastUS'
+    jobs:
+      - job: WhatIf_Test
+        displayName: Get Changes to Test Infrastructure
+        pool:
+          vmImage: ubuntu-18.04
+        variables:
+          applicationName: 'dsrironcladtest'
+          StorageAccountName: 'dsrironcladtest'
+          resourceGroupName: 'dsr-ironcladtest-rg'
+        steps:
+          - task: AzurePowerShell@5
+            displayName: 'Execute What-If'
+            inputs:
+              azureSubscription: 'Azure (Demo Subscription)'
+              scriptType: InlineScript
+              Inline: |
+                $templateParameterObject = @{
+                    applicationName = '$(applicationName)'
+                    Location = '$(Location)'
+                    StorageAccountName = '$(StorageAccountName)'
+                }
+                $(System.DefaultWorkingDirectory)\src\infrastructure\scripts\Invoke-WhatIf.ps1 `
+                    -TemplateFile '$(System.DefaultWorkingDirectory)\src\infrastructure\all\azuredeploy.json' `
+                    -TemplateParameterObject $templateParameterObject `
+                    -ResourceGroupName '$(resourceGroupName)' `
+                    -ReportPath "$env:BUILD_ARTIFACTSTAGINGDIRECTORY\whatif.txt"
+              azurePowerShellVersion: 'LatestVersion'
+              FailOnStandardError: true
+              pwsh: true
+
+          - task: PublishBuildArtifacts@1
+            displayName: 'Publish What-If'
+            inputs:
+              pathToPublish: $(Build.ArtifactStagingDirectory)
+              artifactName: WhatIfTest
+
+
+  - stage: WhatIf_Prod
+    displayName: What-If Infrastructure (Prod)
+    variables:
+      location: 'EastUS'
+    jobs:
+      - job: WhatIf_Prod
+        displayName: Get Changes to Production Infrastructure
+        pool:
+          vmImage: ubuntu-18.04
+        variables:
+          applicationName: 'dsrironclad'
+          StorageAccountName: 'dsrironclad'
+          resourceGroupName: 'dsr-ironclad-rg'
+        steps:
+          - task: AzurePowerShell@5
+            displayName: 'Execute What-If'
+            inputs:
+              azureSubscription: 'Azure (Demo Subscription)'
+              scriptType: InlineScript
+              Inline: |
+                $templateParameterObject = @{
+                    applicationName = '$(applicationName)'
+                    Location = '$(Location)'
+                    StorageAccountName = '$(StorageAccountName)'
+                }
+                $(System.DefaultWorkingDirectory)\src\infrastructure\scripts\Invoke-WhatIf.ps1 `
+                    -TemplateFile '$(System.DefaultWorkingDirectory)\src\infrastructure\all\azuredeploy.json' `
+                    -TemplateParameterObject $templateParameterObject `
+                    -ResourceGroupName '$(resourceGroupName)' `
+                    -ReportPath "$env:BUILD_ARTIFACTSTAGINGDIRECTORY\whatif.txt"
+              azurePowerShellVersion: 'LatestVersion'
+              FailOnStandardError: true
+              pwsh: true
+
+          - task: PublishBuildArtifacts@1
+            displayName: 'Publish What-If'
+            inputs:
+              pathToPublish: $(Build.ArtifactStagingDirectory)
+              artifactName: WhatIfProd

@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "target": {
+            "value": ""
+        },
+        "containerImage": {
+            "value": "owasp/zap2docker-weekly"
+        },
+        "spiderTime": {
+            "value": 1
+        },
+        "containerGroupName": {
+            "value": "defaultValue"
+        },
+        "storageAccountName": {
+            "value": "owaspzap"
+        },
+        "blobContainerName": {
+            "value": "reports"
+        },
+        "htmlReportName": {
+            "value": "testresults.html"
+        },
+        "xmlReportName": {
+            "value": "testresults.xml"
+        },
+        "containerCpuCores": {
+            "value": 1
+        },
+        "containerMemoryInGB": {
+            "value": "1.5"
+        }
+    }
+}
